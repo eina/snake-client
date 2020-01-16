@@ -5,7 +5,6 @@
 let connection;
 
 const handleUserInput = (key) => {
-  console.log('okay but what are you', key)
   // \u0047 => g
   if(key === '\u0003') {    
     process.exit();
